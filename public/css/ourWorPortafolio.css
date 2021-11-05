@@ -1,0 +1,17 @@
+@media only screen and (max-width: 750px) {
+    .ourWokrPortGrid {
+        display: grid;
+    }
+}
+
+@media only Screen and (min-width:750px) and (max-width: 1600px) {
+    .ourWokrPortGrid {
+        display: grid;
+    }
+}
+
+@media only Screen and (min-width: 1600px) {
+    .ourWokrPortGrid {
+        display: grid;
+    }
+}

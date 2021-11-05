@@ -1,0 +1,9 @@
+CREATE TABLE `itwebser_Cenix`.`customers` (
+  `Id` INT(200) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `Nombre` VARCHAR(50) NOT NULL,
+  `Email` VARCHAR(50) NOT NULL,
+  `Tema` VARCHAR(50) NOT NULL,
+  `Mensaje` TEXT NOT NULL,
+  `created_at` DATE NOT NULL,
+  `updated_at` DATE NOT NULL
+) ENGINE = InnoDB;
